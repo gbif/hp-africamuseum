@@ -91,12 +91,24 @@ var siteConfig = {
   "messages": {},
   "occurrenceSearch": {
     "scope": {
-      "type": "in",
-      "key": "publishingOrg",
-      "values": [
-        "760d5f24-4c04-40da-9646-1b2c935da502",
-        "2e7df380-8356-4533-bcb3-5459e23c794e",
-        "8e1a97a0-3ca8-11d9-8439-b8a03c50a862"
+      "type": "or",
+      "predicates": [
+        {
+          "type": "in",
+          "key": "datasetKey",
+          "values": [
+            "b0cb000d-9381-4881-98d9-1594acf59c89",
+            "4e4569e8-ec6f-4c29-bd10-7a907714246c",
+            "bddbc2b5-5215-4996-b553-241e06e029ee",
+            "9cfa6cb6-5833-44b2-97f1-18a3c12fed47",
+            "7baada30-f762-11e1-a439-00145eb45e9a"
+          ]
+        },
+        {
+          "type": "equals",
+          "key": "publishingOrg",
+          "value": "575c52b0-a742-11db-a6ff-b8a03c50a862"
+        }
       ]
     },
     "highlightedFilters": [
