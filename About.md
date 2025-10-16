@@ -1,5 +1,6 @@
 
 --- 
+permalink: /about
 Layout : heroImage
 Title: Strategy
 Description: Vision of the AfricaMuseum
