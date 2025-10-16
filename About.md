@@ -1,8 +1,9 @@
 
-Layout: heroImage
+--- 
+Layout : heroImage
 Title: Strategy
 Description: Vision of the AfricaMuseum
-
+---
 As a museum and research centre, the **AfricaMuseum** is a forum for study and dialogue on societies and the natural environment in Sub-Saharan Africa.
 The AfricaMuseum is a place of memory and tells the history of the colonial past but also works with and on the Africa of today and tomorrow.
 The AfricaMuseum is committed to generating interest and promoting social involvement in the challenges of today and tomorrow.
